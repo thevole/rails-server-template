@@ -18,3 +18,5 @@ cookbook 'mysql', git: 'https://github.com/opscode-cookbooks/mysql'
 cookbook 'nginx-tlq', git: 'git@github.com:TalkingQuickly/nginx-tlq.git'
 cookbook 'rbenv', git: 'https://github.com/fnichol/chef-rbenv'
 cookbook 'postgresql', git: 'git@github.com:opscode-cookbooks/postgresql.git'
+
+cookbook 'imagemagick'

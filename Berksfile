@@ -1,9 +1,9 @@
-site :opscode
+source "https://supermarket.getchef.com"
 
 cookbook 'build-essential', git: 'https://github.com/opscode-cookbooks/build-essential'
 cookbook 'sudo', git: 'https://github.com/opscode-cookbooks/sudo.git'
-cookbook 'basic-security-tlq', git: 'https://github.com/TalkingQuickly/basic_security-tlq.git'
-cookbook 'look-and-feel-tlq', git: 'https://github.com/TalkingQuickly/look_and_feel-tlq.git'
+cookbook 'basic_security-tlq', git: 'https://github.com/TalkingQuickly/basic_security-tlq.git'
+cookbook 'look_and_feel-tlq', git: 'https://github.com/TalkingQuickly/look_and_feel-tlq.git'
 cookbook 'users', git: 'https://github.com/opscode-cookbooks/users.git'
 cookbook 'chef-solo-search', git: 'https://github.com/edelight/chef-solo-search'
 

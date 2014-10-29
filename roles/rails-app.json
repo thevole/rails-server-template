@@ -12,6 +12,9 @@
           {"name":"bundler"}
         ]
       }
+    },
+    "ruby_build": {
+      "upgrade": true
     }
 
   },
